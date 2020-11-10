@@ -8,7 +8,7 @@ A simple, yet quite useful and high-speed dictionary attack tool (700,000+ candi
 <p>Example Execution - HashAttack</p>
 </div>
 
-## Hashing algorithms supported
+## Hashing Algorithms Supported
 - **BLAKE2b**
 - **BLAKE2s**
 - **MD5**
@@ -24,6 +24,7 @@ A simple, yet quite useful and high-speed dictionary attack tool (700,000+ candi
 - **SHAKE-128**
 - **SHAKE-256**
 
+## Hash Generator: String → Hash Converter (for tests)
 HashAttack also comes with a "Hash Generator" program that converts a user-input string to a hash of the selected hashing algorithm, and then automatically copies the generated hash to the clipboard; mainly for the purpose of testing HashAttack conveniently.
 
 <div align="center">
