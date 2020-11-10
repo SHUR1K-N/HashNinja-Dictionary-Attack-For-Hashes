@@ -53,8 +53,23 @@ if __name__ == '__main__':
 
     while (True):
         print("\nAlgorithms:-\n")
-        for index, element in enumerate(sorted(hashlib.algorithms_guaranteed), start=1):
-            print(f"{index:>2}. {element}")
+        # for index, element in enumerate(sorted(hashlib.algorithms_guaranteed), start=1):
+            # print(f"{index:>2}. {element}")
+        print('''
+ 1. BLAKE2b
+ 2. BLAKE2s
+ 3. MD5
+ 4. SHA-1
+ 5. SHA-2 (224-bit)
+ 6. SHA-2 (256-bit)
+ 7. SHA-2 (384-bit)
+ 8. SHA-2 (512-bit)
+ 9. SHA-3 (224-bit)
+10. SHA-3 (256-bit)
+11. SHA-3 (384-bit)
+12. SHA-3 (512-bit)
+13. SHAKE-128
+14. SHAKE-256''')
 
         algorithm = input("\n\nSelect algorithm number: ")
 
@@ -73,15 +88,15 @@ if __name__ == '__main__':
         elif algorithm == "7":
             hashify = getattr(hashlib, "sha384")
         elif algorithm == "8":
-            hashify = getattr(hashlib, "sha3_224")
-        elif algorithm == "9":
-            hashify = getattr(hashlib, "sha3_256")
-        elif algorithm == "10":
-            hashify = getattr(hashlib, "sha3_384")
-        elif algorithm == "11":
-            hashify = getattr(hashlib, "sha3_512")
-        elif algorithm == "12":
             hashify = getattr(hashlib, "sha512")
+        elif algorithm == "9":
+            hashify = getattr(hashlib, "sha3_224")
+        elif algorithm == "10":
+            hashify = getattr(hashlib, "sha3_256")
+        elif algorithm == "11":
+            hashify = getattr(hashlib, "sha3_384")
+        elif algorithm == "12":
+            hashify = getattr(hashlib, "sha3_512")
         elif algorithm == "13":
             hashify = getattr(hashlib, "shake_128")
         elif algorithm == "14":
