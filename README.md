@@ -7,7 +7,12 @@ Also comes with a "Hash Generator" program that converts a user-input string to 
 
 <div align="center">
 <img src="https://github.com/SHUR1K-N/HashAttack-Dictionary-Attack-For-Hashes/blob/main/Images/Example.png" >
-<p>Example Execution</p>
+<p>Example Execution - HashAttack</p>
+</div>
+
+<div align="center">
+<img src="https://github.com/SHUR1K-N/HashAttack-Dictionary-Attack-For-Hashes/blob/main/Images/Example%20(Hash%20Generator).png" >
+<p>Example Execution - Hash Generator</p>
 </div>
 
 This project was created in Python, for experimental/observational purposes; and can also be aided with my own super fast numbered dictionary generator [**NumNinja**](https://github.com/SHUR1K-N/NumNinja-Number-Dictionary-Generator)  (2M+ lines per second) for numeric attacks.
