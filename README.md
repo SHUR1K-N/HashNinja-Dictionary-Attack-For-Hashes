@@ -1,9 +1,9 @@
 # HashAttack: A Dictionary Attack Tool for Hashes
 
 ## Description & Usage
-A high speed dictionary attack implementation (700,000+ lines per second), that attacks hashes with a user-defined dictionary file's candidates to find the string that matches with the hash to be attacked.
+A simple, yet quite useful and high-speed dictionary attack tool (700,000+ candidates per second), that attacks a hash with a user-defined dictionary file's candidates to find the string that matches with its corresponding hash.
 
-Also comes with a Hash Generator program that converts a user-input string to a hash of the selected hashing algorithm, and then automatically copies the generated hash to the clipboard; mainly for the purpose of testing HashAttack conveniently.
+Also comes with a "Hash Generator" program that converts a user-input string to a hash of the selected hashing algorithm, and then automatically copies the generated hash to the clipboard; mainly for the purpose of testing HashAttack conveniently.
 
 <div align="center">
 <img src="https://github.com/SHUR1K-N/HashAttack-Dictionary-Attack-For-Hashes/blob/main/Images/Example.png" >
