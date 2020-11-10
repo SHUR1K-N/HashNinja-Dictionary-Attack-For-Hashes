@@ -96,7 +96,7 @@ if __name__ == '__main__':
         break
 
     while (True):
-        supplied = input(f"\nEnter {hashNames[int(algorithm)]} hash to attack: ")
+        supplied = input(f"\nEnter {hashNames[(int(algorithm) - 1)]} hash to attack: ")
         if (supplied == "" or len(supplied) < 30):
             clrscr()
             print("\nInvalid entry. Please try again.\n")
