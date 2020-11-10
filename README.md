@@ -1,14 +1,14 @@
 # HashAttack: A Dictionary Attack Tool for Hashes
 
 ## Description & Usage
-A simple, yet quite useful and high-speed dictionary attack tool (700,000+ candidates per second), that attacks a hash with a user-defined dictionary file's candidates to find the string that matches with its corresponding hash.
+A simple, yet quite useful and high-speed dictionary attack tool (700,000+ candidates per second), that attacks a supported hash with a user-defined dictionary file's candidates to find the string that matches with its corresponding hash.
 
 <div align="center">
 <img src="https://github.com/SHUR1K-N/HashAttack-Dictionary-Attack-For-Hashes/blob/main/Images/Example.png" >
 <p>Example Execution - HashAttack</p>
 </div>
 
-## Hashing Algorithms Supported
+## Supported Hashing Algorithms
 - **BLAKE2b**
 - **BLAKE2s**
 - **MD5**
