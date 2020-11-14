@@ -32,7 +32,7 @@ HashAttack also comes with a "Hash Generator" program that converts a user-input
 <p>Example Execution - Hash Generator</p>
 </div>
 
-This project was created in Python, for experimental/observational purposes; and can also be aided with my own super fast numbered dictionary generator [**NumNinja**](https://github.com/SHUR1K-N/NumNinja-Number-Dictionary-Generator)  (2M+ lines per second) for numeric attacks.
+This project was created in Python, for experimental/observational purposes; and can also be aided with my own super fast numbered dictionary generator [**NumNinja**](https://github.com/SHUR1K-N/NumNinja-Number-Dictionary-Generator)  (up to 2M+ lines per second) for numeric attacks.
 
 ## Dependencies to PIP-Install
 - **colorama** (for colors)
