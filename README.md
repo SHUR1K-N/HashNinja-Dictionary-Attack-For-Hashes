@@ -1,11 +1,11 @@
-# HashAttack: A Dictionary Attack Tool for Hashes
+# HashNinja: A Dictionary Attack Tool for Hashes
 
 ## Description & Usage
 A simple, yet quite useful and high-speed dictionary attack tool (700,000+ candidates per second), that attacks a supported hash with a user-defined dictionary file's candidates to find the string that matches with its corresponding hash.
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/SHUR1K-N/HashAttack-Dictionary-Attack-For-Hashes/main/Images/Example.png" >
-<p>Example Execution - HashAttack</p>
+<img src="https://raw.githubusercontent.com/SHUR1K-N/HashNinja-Dictionary-Attack-For-Hashes/main/Images/Example.png" >
+<p>Example Execution - HashNinja</p>
 </div>
 
 ## Supported Hashing Algorithms
@@ -25,10 +25,10 @@ A simple, yet quite useful and high-speed dictionary attack tool (700,000+ candi
 - **SHAKE-256**
 
 ## Hash Generator: String → Hash Converter (for tests)
-HashAttack also comes with a "Hash Generator" program that converts a user-input string to a hash of the selected hashing algorithm, and then automatically copies the generated hash to the clipboard; mainly for the purpose of testing HashAttack conveniently.
+HashNinja also comes with a "Hash Generator" program that converts a user-input string to a hash of the selected hashing algorithm, and then automatically copies the generated hash to the clipboard; mainly for the purpose of testing HashNinja conveniently.
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/SHUR1K-N/HashAttack-Dictionary-Attack-For-Hashes/main/Images/Example%20(Hash%20Generator).png" >
+<img src="https://raw.githubusercontent.com/SHUR1K-N/HashNinja-Dictionary-Attack-For-Hashes/main/Images/Example%20(Hash%20Generator).png" >
 <p>Example Execution - Hash Generator</p>
 </div>
 
