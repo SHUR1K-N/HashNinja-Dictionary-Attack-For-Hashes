@@ -34,6 +34,14 @@ HashNinja also comes with a "Hash Generator" program that converts a user-input 
 
 This project was created in Python, for experimental/observational purposes; and can also be aided with my own super fast numbered dictionary generator [**NumNinja**](https://github.com/SHUR1K-N/NumNinja-Number-Dictionary-Generator)  (up to 2M+ lines per second) for numeric attacks.
 
+## Optimization
+The high password matching speed is owed to approach of "chunkifying" the dictionary file (creating multiple "chunks" of the dictionary) and then working on all those simplified chunks concurrently (multithreading) in different directions for better balance, efficiency and performance.
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/SHUR1K-N/HashNinja-Dictionary-Attack-For-Hashes/main/Images/Multithreading%20Presentation.png" >
+<p>Approaches: Regular Vs. Multithreaded</p>
+</div>
+
 ## Dependencies to PIP-Install
 - **colorama** (for colors)
 - **termcolor** (for colors)
