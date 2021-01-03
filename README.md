@@ -1,7 +1,7 @@
 # HashNinja: A Dictionary Attack Tool for Hashes
 
 ## Description & Usage
-A high-speed & unique multithreaded dictionary attack implementation that attacks a supported hash with a user-defined dictionary file to find the string candidate that corresponds to the supplied hash.
+A high-speed & unique multithreaded dictionary attack implementation that attacks a supported hash with a "chunkified" user-defined dictionary file to find the string candidate that corresponds to the supplied hash.
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/SHUR1K-N/HashNinja-Dictionary-Attack-For-Hashes/main/Images/Example.png" >
