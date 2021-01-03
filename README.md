@@ -1,7 +1,7 @@
 # HashNinja: A Dictionary Attack Tool for Hashes
 
 ## Description & Usage
-A simple, yet quite useful and high-speed dictionary attack tool (700,000+ candidates per second), that attacks a supported hash with a user-defined dictionary file's candidates to find the string that matches with its corresponding hash.
+A high-speed & unique multithreaded dictionary attack implementation that attacks a supported hash with a user-defined dictionary file to find the string candidate that corresponds to the supplied hash.
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/SHUR1K-N/HashNinja-Dictionary-Attack-For-Hashes/main/Images/Example.png" >
@@ -35,7 +35,7 @@ HashNinja also comes with a "Hash Generator" program that converts a user-input 
 This project was created in Python, for experimental/observational purposes; and can also be aided with my own super fast numbered dictionary generator [**NumNinja**](https://github.com/SHUR1K-N/NumNinja-Number-Dictionary-Generator)  (up to 2M+ lines per second) for numeric attacks.
 
 ## Optimization
-The high hash matching speed is owed to the approach of "chunkifying" the dictionary file (creating multiple "chunks" of the dictionary) and then working on all those simplified chunks concurrently (multithreading) in different directions for better balance, efficiency and performance.
+The high hash-matching speed is owed to the approach of "chunkifying" the dictionary file (creating multiple "chunks" of the dictionary) and then operating upon all those simplified chunks concurrently (multithreading) in different directions (forward and backward) for significantly higher overall balance, efficiency and performance.
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/SHUR1K-N/HashNinja-Dictionary-Attack-For-Hashes/main/Images/Multithreading%20Presentation.png" >
