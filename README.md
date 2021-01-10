@@ -48,4 +48,4 @@ The high hash-matching speed is owed to the approach of "chunkifying" the dictio
 
 ------------
 
-My website: http://bit.do/SHUR1KN
+My website: https://TheComputerNoob.com
